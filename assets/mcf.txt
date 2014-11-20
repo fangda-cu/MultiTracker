@@ -1,0 +1,19 @@
+scene			MCF
+time-step		0.01
+simulation-time		200
+
+remeshing-resolution	0.05
+remeshing-iterations	3
+    
+lostopos-collision-epsilon-fraction 1e-4
+lostopos-merge-proximity-epsilon-fraction 0.02
+lostopos-perform-smoothing 0
+lostopos-max-volume-change-fraction 100
+lostopos-min-triangle-angle 3
+lostopos-max-triangle-angle 177
+lostopos-large-triangle-angle-to-split 160
+lostopos-min-triangle-area-fraction 1e-4
+lostopos-t1-transition-enabled 1
+lostopos-t1-pull-apart-distance-fraction 0.1
+lostopos-smooth-subdivision 0
+
