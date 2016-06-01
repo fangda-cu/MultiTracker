@@ -9,7 +9,7 @@ static void print_hex( double d )
 #ifdef _MSC_VER
     std::ios_base::fmtflags originalFlags = std::cout.flags();
 #else
-    std::_Ios_Fmtflags originalFlags = std::cout.flags();
+    auto originalFlags = std::cout.flags();
 #endif
     
     assert( sizeof(double) == 2 * sizeof(long int) );
